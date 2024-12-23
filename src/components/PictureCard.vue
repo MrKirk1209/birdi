@@ -21,7 +21,7 @@
 import { computed } from 'vue'
 import PrimaryBtn from './PrimaryBtn.vue'
 const imageSrc = computed(() =>
-  props.image ? new URL('../assets/' + props.image, import.meta.url).href : '/placeholder.jpg'
+  props.image ? `images/${props.image}` : '/placeholder.jpg'
 );
 const props = defineProps({
   author: {

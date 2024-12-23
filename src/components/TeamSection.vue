@@ -28,9 +28,9 @@ export default {
   data() {
     return {
       teamMembers: [
-        { name: 'Member 1', image: 'src/assets/woman-1.png' },
-        { name: 'Member 2', image: 'src/assets/man-1.jpg' },
-        { name: 'Member 3', image: 'src/assets/man-2.jpg' },
+        { name: 'Member 1', image: 'team/woman-1.png' },
+        { name: 'Member 2', image: 'team/man-1.jpg' },
+        { name: 'Member 3', image: 'team/man-2.jpg' },
       ],
     };
   },
